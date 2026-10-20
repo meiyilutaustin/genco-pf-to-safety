@@ -1,0 +1,10 @@
+{
+  "name": "genco-pf-safety-figures",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone five-figure reproduction candidate; not a publication",
+  "dependencies": {
+    "playwright": "1.62.1"
+  },
+  "license": "MIT"
+}
