@@ -14,7 +14,7 @@ The model configuration and normalization artifacts were read from the same upst
 
 ## Texas published predictions
 
-The Texas N−2 safety-screening analysis uses the test cases and published predictions from [gridfm/genco-pf-contingency](https://huggingface.co/gridfm/genco-pf-contingency). It does not run the small-grid checkpoint above on Texas. Texas is a training-grid evaluation; the four small grids are unseen grids in the separate frozen-model experiment.
+The Texas N−2 safety-screening analysis uses the test cases and published predictions from [gridfm/genco-pf-contingency](https://huggingface.co/gridfm/genco-pf-contingency). The downloaded `mlflow/eval/test_2/predictions.parquet` metadata records revision [`5c625b00f5b79c8a7d4d27ecc133d4ecdf573af7`](https://huggingface.co/gridfm/genco-pf-contingency/tree/5c625b00f5b79c8a7d4d27ecc133d4ecdf573af7). This pins the prediction artifact; it does not assert that every truth file was independently revision-audited. It does not run the small-grid checkpoint above on Texas. Texas is a training-grid evaluation; the four small grids are unseen grids in the separate frozen-model experiment.
 
 ## Toolkit and scope
 
